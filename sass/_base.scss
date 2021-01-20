@@ -1,4 +1,5 @@
 // base styles
+
 :root{
     --color-primary-1: hsl(0, 78%, 62%); // Red
     --color-primary-2: hsl(180, 62%, 55%); // Cyan
@@ -21,4 +22,12 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     font-weight: var(--font-weight-normal, 400);
+    margin: 0;
+    color: var(--color-neutral-1);
+}
+h1, h2 {
+    margin: 0;
+}
+p {
+    margin: 0;
 }
