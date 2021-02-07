@@ -6,6 +6,7 @@
   --color-neutral-1: hsl(234, 12%, 34%);
   --color-neutral-2: hsl(229, 6%, 66%);
   --color-neutral-3: hsl(0, 0%, 98%);
+  --color-neutral-shadow: hsl(229, 6%, 66%, 0.25);
   --font-weight-light: 200;
   --font-weight-normal: 400;
   --font-weight-bold: 700;
@@ -29,10 +30,6 @@ body {
 
 h1, h2, h3 {
   margin: 0;
-}
-
-h3 {
-  font-size: 1.25rem;
 }
 
 p {
@@ -82,6 +79,12 @@ p {
   display: flex;
   flex-flow: column;
   border-radius: 7px;
+  -webkit-box-shadow: 0px 10px 20px var(--color-neutral-shadow);
+  box-shadow: 0px 10px 20px var(--color-neutral-shadow);
+}
+
+.card-title {
+  font-size: 1.27rem;
 }
 
 .supervisor {
