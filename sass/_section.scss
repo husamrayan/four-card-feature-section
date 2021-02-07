@@ -43,6 +43,11 @@
     display: flex;
     flex-flow: column;    
     border-radius: 7px;
+    -webkit-box-shadow: 0px 10px 20px var(--color-neutral-shadow);
+    box-shadow: 0px 10px 20px var(--color-neutral-shadow);
+}
+.card-title {
+    font-size: 1.27rem; // 19px
 }
 .supervisor{
     @extend %card;
