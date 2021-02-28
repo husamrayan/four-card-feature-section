@@ -1,20 +1,18 @@
 // section styles
-
-
 .main {
     width: 100%;
     background-color:var(--color-neutral-3);
     padding: 78px 0px 80px 0px;
 }
 .header {
-    text-align: center;
+   
     margin-bottom: 69px;
 
     .head-1 {
         font-family: Poppins;
         font-weight: var(--font-weight-light, 200);
-        font-size: 2.33rem; // 35px
-        line-height: 52px; // 3.5rem
+       
+        // line-height: 52px; // 3.5rem
         /* identical to box height */
         letter-spacing: 0.5px;
         color:  var(--color-neutral-2);
@@ -22,8 +20,8 @@
     .head-2{
         font-family: Poppins;
         font-weight: var(--font-weight-bold, 700);
-        font-size: 2.33rem; // 35px
-        line-height: 52px; // 3.5rem
+        
+        // line-height: 52px; // 3.5rem
         /* identical to box height */
         letter-spacing: 0.5px;
         margin-bottom: 18px;
@@ -32,9 +30,10 @@
     p {
         font-family: Poppins;
         font-weight: var(--font-weight-normal, 700);
-        font-size: 1rem;
+        
         line-height: 24px; // 1.47rem
         color:  var(--color-neutral-2);
+        
     }
 }
 %card {
@@ -45,6 +44,8 @@
     border-radius: 7px;
     -webkit-box-shadow: 0px 10px 20px var(--color-neutral-shadow);
     box-shadow: 0px 10px 20px var(--color-neutral-shadow);
+    
+
 }
 .card-title {
     font-size: 1.27rem; // 19px
@@ -70,6 +71,7 @@
 .card-text {
     font-size: 0.86rem;
     color: var(--color-neutral-2);
+    text-align: left;
 }
 .card-img {
     width: 64px;
